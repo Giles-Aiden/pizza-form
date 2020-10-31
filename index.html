@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel='stylesheet' href='css/main.css'>
+	<link rel='icon' type='image/ico' href='images/favicon.ico'>
+</head>
+<body>
+	<header>
+    <img src='images/favicon.png' width='100em'>
+    <h1>Pizza4U&Me</h1>
+	</header>
+	<form id='form'>
+		<fieldset>
+			<legend>User Information</legend>
+			<label for='user.username'>Username: </label><br>
+			<input type='text' id='user.name' name='user.name' value=''><br>
+			<label for='user.password'>Password: </label><br>
+			<input type='password' id='user.password' name='user.password'><br>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>What drink do you want?</legend>
+			<div id='drink'>
+				<input type='radio' id='drink.coke' name='drink' value='drink.coke'>
+				<label for='drink.coke'>Coke</label><br>
+				<input type='radio' id='drink.dietCoke' name='drink' value='drink.dietCoke'>
+				<label for='drink.dietCoke'>Diet Coke</label><br>
+				<input type='radio' id='drink.sprite' name='drink' value='drink.sprite'>
+				<label for='drink.sprite'>Sprite</label><br>
+				<input type='radio' id='drink.water' name='drink' value='drink.water'>
+				<label for='drink.water'>Water</label><br>
+			</div>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Pizza Preference</legend>
+			<div id='pizza'>
+				<input type='checkbox' id='pizza.plain' name='pizza.plain' value='pizza.plain'>
+				<label for='pizza.plain'>Plain</label><br>
+				<input type='checkbox' id='pizza.pepperone' name='pizza.perrerone' value='pizza.pepperone'>
+				<label for='pizza.pepperone'>Pepperone</label><br>
+				<input type='checkbox' id='pizza.chicken' name='pizza.chicken' value='pizza.chicken'>
+				<label for='pizza.chicken'>Chicken</label><br>
+				<input type='checkbox' id='pizza.sausage' name='pizza.sausage' value='pizza.sausage'>
+				<label for='pizza.sausage'>Sausage</label><br>
+			</div>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Special Instructions</legend>
+			<textarea name='special' id='special' rows='10' cols='30'></textarea><br>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Submit</legend>
+			<input type='submit' value='Submit'>
+			<input type='reset'>
+		</fieldset>
+	</form>
+</body>
+</html>
